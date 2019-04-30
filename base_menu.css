@@ -1,3 +1,36 @@
-h1 {
-    background-color: black;
+.menu li, .lower_menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: stretch;
+}
+
+.menu li a, .lower_menu a {
+    background: #393a3b;
+    border: 0.5em solid #303334;
+}
+
+.menu li a {
+    flex: 1 100%;
+}
+
+.menu li :nth-child(2) {
+    border-left-width: 0;
+    border-right-width: 0;
+}
+
+.menu li ul, .lower_menu a div {
+    margin: 0;
+    padding: 1em;
+    text-align: center;
+}
+
+.lower_menu a {
+    border-top-width: 0;
+}
+
+.menu a {
+    color: #f3f9f6;
+    text-decoration: none;
+    font-variant: small-caps;
+    font-size: 1.4em;
 }
