@@ -18,7 +18,7 @@
     border-right-width: 0;
 }
 
-.menu li ul, .lower_menu a div {
+.menu li ul, .login {
     margin: 0;
     padding: 1em;
     text-align: center;
@@ -26,6 +26,14 @@
 
 .lower_menu a {
     border-top-width: 0;
+}
+
+.logo {
+    padding: 0em;
+}
+
+.lower_menu a div img {
+    width: 5em;
 }
 
 .menu a {
