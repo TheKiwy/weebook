@@ -3,6 +3,9 @@ body {
     background-repeat: repeat-y;
     font-family: sans-serif;
     color: #f3f9f6;
+    background-size: cover;
+    width: auto;
+    height: auto;
 }
 
 .menu li, .lower_menu {
