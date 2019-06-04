@@ -1,1 +1,67 @@
--- Style for index
+body {
+  background-image: url(images/background.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  font-family: sans-serif;
+  width: auto;
+  height: auto;
+}
+
+section {
+  text-align: center;
+  background: rgba(57, 58, 59, 0.5);
+  font-size: 1.5em;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  background: rgba(57, 58, 59, 1);
+}
+
+section p:last-child {
+  color: white;
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+  padding-top: 5%;
+
+}
+footer p:last-child{
+  display: flex;
+  justify-content: center;
+  justify-content: space-around;
+}
+h1 {
+  padding-top: 5%;
+  padding-bottom: 2.5%;
+}
+section li {
+  margin: 10px;
+}
+section a {
+  padding: 0.5em;
+  border: 0.2em solid #303334;
+  background: #393a3b;
+}
+a:link, a:visited {
+  color: white;
+  text-decoration: none;
+}
+.above {
+  padding-bottom: 10%;
+}
+.liste {
+  width: 25%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
+  text-align:  left;
+  margin: auto;
+}
+.img {
+  text-align: left;
+}
+.img img {
+  max-width: 15%;
+}
