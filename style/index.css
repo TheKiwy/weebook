@@ -11,12 +11,6 @@ section {
   font-size: 1.5em;
 }
 
-footer {
-  display: block;
-  text-align: center;
-  background: rgba(57, 58, 59, 1);
-}
-
 section p:last-child {
   color: white;
   display: flex;
@@ -24,11 +18,6 @@ section p:last-child {
   justify-content: space-around;
   padding-top: 5%;
 
-}
-footer p:last-child{
-  display: flex;
-  justify-content: center;
-  justify-content: space-around;
 }
 h1 {
   padding-top: 5%;
@@ -42,7 +31,7 @@ section a {
   border: 0.2em solid #303334;
   background: #393a3b;
 }
-a:link, a:visited {
+p a:link, p a:visited {
   color: white;
   text-decoration: none;
 }
