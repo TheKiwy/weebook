@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="utf-8">
+        <title>Weebook - Logging In</title>
+        <link rel="stylesheet" href="../style/base_menu.css" media="screen">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <div class="menu">
+                    <li>
+                        <a href="../index.html"><ul>Home</ul></a>
+                        <a href="../products/index.html"><ul>E-Shop</ul></a>
+                        <a href="../about_us/index.html"><ul>About us</ul></a>
+                    </li>
+                    <div class="lower_menu">
+                        <a href="../index.html">
+                            <div class="logo">
+                                <img src="../images/logo.png" alt="Logo Weebook">
+                            </div>
+                        </a>
+                        <a href="../login/index.html">
+                            <div class ="login">
+                                Log in - Register
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </nav>
+        </header>
+        <form id="login" action="check_login.php" method="post">
+          <fieldset>
+            <legend>Log in</legend>
+            <label for="id">Login</label>
+            <input type="text" id="id" value="">
+            <label for="mdp">Password</label>
+            <input type="password" id="mdp" value="">
+            <input type="submit" id="valider" value="Submit">
+          </fieldset>
+        </form>
+        <form id="signin" action="check_signin.php" method="post">
+          <fieldset>
+            <legend>Create a new account</legend>
+            <label for="id">Login</label>
+            <input type="text" id="id" value="" placeholder="ex.: theMangator72">
+            <label for="mail">eMail</label>
+            <input type="email" id="mail" value="" placeholder="ex.: themangator@gmail.com">
+            <label for="confMail">Confirm eMail</label>
+            <input type="email" id="confMail" value="" placeholder="ex.: themangator@gmail.com">
+            <label for="mdp">Password</label>
+            <input type="password" id="mdp" value="" placeholder="ex.: bl0ups98273">
+            <label for="confMdp">Confirm password</label>
+            <input type="password" id="confMdp" value="" placeholder="ex.: bl0ups98273">
+            <input type="submit" id="valider" value="Submit">
+          </fieldset>
+        </form>
+        <footer>
+            <p>Copyright (c) 2019 Weebook All Rights Reserved.</p>
+            <ul>
+                <li><a href="#">Legal mentions</a></li>
+                <li><a href="#">Contact us</a></li>
+            </ul>
+        </footer>
+    </body>
+
+</html>
