@@ -2,6 +2,7 @@ body {
     background-image: url(../images/background.png);
     background-repeat: repeat-y;
     font-family: sans-serif;
+    color: #f3f9f6;
 }
 
 .menu li, .lower_menu {
