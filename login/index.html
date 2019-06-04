@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <title>Weebook - Logging In</title>
         <link rel="stylesheet" href="../style/base_menu.css" media="screen">
+        <link rel="stylesheet" href="../style/login.css">
     </head>
     <body>
         <header>
@@ -31,28 +32,55 @@
         </header>
         <form id="login" action="check_login.php" method="post">
           <fieldset>
+
             <legend>Log in</legend>
-            <label for="id">Login</label>
-            <input type="text" id="id" value="">
-            <label for="mdp">Password</label>
-            <input type="password" id="mdp" value="">
+
+            <div class="form_part">
+                <label for="id">Login</label>
+                <input type="text" id="id" value="">
+            </div>
+
+            <div class="form_part">
+                <label for="mdp">Password</label>
+                <input type="password" id="mdp" value="">
+            </div>
+
             <input type="submit" id="valider" value="Submit">
+
           </fieldset>
         </form>
         <form id="signin" action="check_signin.php" method="post">
           <fieldset>
+
             <legend>Create a new account</legend>
-            <label for="id">Login</label>
-            <input type="text" id="id" value="" placeholder="ex.: theMangator72">
-            <label for="mail">eMail</label>
-            <input type="email" id="mail" value="" placeholder="ex.: themangator@gmail.com">
-            <label for="confMail">Confirm eMail</label>
-            <input type="email" id="confMail" value="" placeholder="ex.: themangator@gmail.com">
-            <label for="mdp">Password</label>
-            <input type="password" id="mdp" value="" placeholder="ex.: bl0ups98273">
-            <label for="confMdp">Confirm password</label>
-            <input type="password" id="confMdp" value="" placeholder="ex.: bl0ups98273">
+
+            <div class="form_part">
+                <label for="id">Login</label>
+                <input type="text" id="id" value="" placeholder="ex.: theMangator72">
+            </div>
+
+            <div class="form_part">
+                <label for="mail">eMail</label>
+                <input type="email" id="mail" value="" placeholder="ex.: themangator@gmail.com">
+            </div>
+
+            <div class="form_part">
+                <label for="confMail">Confirm eMail</label>
+                <input type="email" id="confMail" value="" placeholder="ex.: themangator@gmail.com">
+            </div>
+
+            <div class="form_part">
+                <label for="mdp">Password</label>
+                <input type="password" id="mdp" value="" placeholder="ex.: bl0ups98273">
+            </div>
+
+            <div class="form_part">
+                <label for="confMdp">Confirm password</label>
+                <input type="password" id="confMdp" value="" placeholder="ex.: bl0ups98273">
+            </div>
+
             <input type="submit" id="valider" value="Submit">
+
           </fieldset>
         </form>
         <footer>
