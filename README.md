@@ -1,5 +1,7 @@
 # weebook
-Website for Weebook
+*Website for Weebook*
+
+**TO-DO LIST**
 
 - On the homepage, the text should be bigger and links should be of a lighter color;
 - The footer should be included on every single page to have a better idea of the final look (should we do the same with the header ?);
